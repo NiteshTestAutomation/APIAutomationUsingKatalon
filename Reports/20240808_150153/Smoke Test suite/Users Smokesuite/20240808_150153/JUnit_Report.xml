@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Users Smokesuite" time="2.671" tests="1" failures="0" errors="0">
+   <testsuite name="Users Smokesuite" tests="1" failures="0" errors="0" time="2.671" skipped="0" timestamp="08-08-2024T15:01:57" hostname="USER - DESKTOP-2PSCSJ2" id="Test Suites/Smoke Test suite/Users Smokesuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\APIAutomationUsingKatalon\\Reports\\20240808_150153\\Smoke Test suite\\Users Smokesuite\\20240808_150153"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\APIAutomationUsingKatalon\\Reports\\20240808_150153\\Smoke Test suite\\Users Smokesuite\\20240808_150153\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-2PSCSJ2"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+      </properties>
+      <testcase name="Test Cases/ReqRes Users TestCases/List Users Testcase" time="2.461" classname="Test Cases/ReqRes Users TestCases/List Users Testcase" status="PASSED">
+         <system-out><![CDATA[08-08-2024T15:01:57 - [TEST_CASE][PASSED] - Test Cases/ReqRes Users TestCases/List Users Testcase: Test Cases/ReqRes Users TestCases/List Users Testcase
+
+08-08-2024T15:01:57 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("Reqres Request Object/List Users")): Send request successfully
+
+08-08-2024T15:01:59 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\APIAutomationUsingKatalon\Reports\20240808_150153\Smoke Test suite\Users Smokesuite\20240808_150153\requests\main\0.har
+
+08-08-2024T15:01:59 - [MESSAGE][PASSED] - Send request successfully
+
+08-08-2024T15:01:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200): Verify response status code successfully
+
+08-08-2024T15:01:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-08-2024T15:01:57 - [TEST_SUITE][PASSED] - Users Smokesuite: Test Cases/ReqRes Users TestCases/List Users Testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

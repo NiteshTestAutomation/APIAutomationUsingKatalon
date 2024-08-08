@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Users Smokesuite,,,,08-08-2024 15:01:57,08-08-2024 15:01:59,2.671s,PASSED
+,,,,,,,
+Test Cases/ReqRes Users TestCases/List Users Testcase,,To get list users testcase,,08-08-2024 15:01:57,08-08-2024 15:01:59,2.461s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Reqres Request Object/List Users""))",,,,08-08-2024 15:01:57,08-08-2024 15:01:59,2.078s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,08-08-2024 15:01:59,08-08-2024 15:01:59,0.043s,PASSED
