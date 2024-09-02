@@ -5,7 +5,7 @@
    <tag></tag>
    <UUID>29c3e0b9-be78-4fe9-b1cd-f2276a7fbdf5</UUID>
    <createdVersion>9.3.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\USER\git\APIAutomationUsingKatalon\APIAutomationUsingKatalon.prj</projectFileLocation>
